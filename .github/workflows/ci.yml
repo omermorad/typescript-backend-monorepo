@@ -3,8 +3,8 @@ on:
   pull_request:
   push:
     branches:
-      - master
       - release
+      - master
 
 jobs:
   build-and-test:
